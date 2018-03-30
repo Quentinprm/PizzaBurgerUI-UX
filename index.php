@@ -111,6 +111,9 @@
     </div>
   <?php include("profil.html"); ?>
   <?php include("panier.html"); ?>
+  <?php
+  if($ad!="type.html"){
+    ?>
   <div id="footer">
     <ul>
       <?php if($ad=="recap.html" OR $ad=="popup.html" OR $ad=="popupvalider.html"){
@@ -119,10 +122,13 @@
       }else{
         $nomLien="Suivant";
       }
+
       ?>
       <li id="suivant"><a href="index.php?ad=<?php echo $suivant; ?>"><p><?php echo $nomLien; ?></p></a></li>
     </ul>
-  </div>
+  </div><?php
+}
+?>
 </div>
 </body>
 <script src="accountmenu.js"></script>

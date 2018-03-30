@@ -111,18 +111,45 @@ body {
   flex-wrap: wrap;
   width: 100%;
   height: 85vh;
+  box-sizing: border-box;
 }
 
 #contenu div{
+  width: 18.75%;
+  box-sizing: border-box;
   margin: auto;
+  margin-left: 5%;
+  margin-right: 0;
+  border-radius: 5px;
   border: 1px solid black;
   box-shadow: 2px 2px 0 0;
-  width: 120px;
-  height: 120px;
   text-align: center;
 }
 
 #contenu div img{
+  width: 100%;
+  height: 100%;
+}
+
+#contenu2{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 85vh;
+  box-sizing: border-box;
+}
+
+#contenu2 div{
+  width: 18.75%;
+  box-sizing: border-box;
+  margin: auto;
+  border-radius: 5px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 0 0;
+  text-align: center;
+}
+
+#contenu2 div img{
   width: 100%;
   height: 100%;
 }
