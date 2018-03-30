@@ -99,6 +99,7 @@ body.open:after {
 }
 .b-nav.open {
   visibility: visible;
+  z-index:998;
 }
 .b-nav.open li {
   -webkit-animation-duration: 0.4s;
@@ -193,6 +194,9 @@ body.open:after {
   position: absolute;
   width: 60px;
   z-index: 14;
+}
+.b-container.open{
+  z-index:999;
 }
 .b-container:hover:not(.open) .bun-top,
 .b-container:hover:not(.open) .bun-mid,
