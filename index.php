@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Type</title>
+  <title>PizzaBurger</title>
   <link rel="stylesheet" href="home.css">
   <link rel="stylesheet" href="accountmenu.css">
   <link rel="stylesheet" href="basket.css">

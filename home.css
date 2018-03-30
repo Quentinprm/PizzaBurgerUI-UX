@@ -52,11 +52,14 @@ body {
   list-style-type:none;
 }
 #menu li {
-  width: 11.11%;
+  width: 12%;
   padding: 0;
   text-align: center;
   display: flex;
+  height: 100%;
   background-color:dodgerblue;
+  border: 2px solid black;
+  box-sizing: border-box;
 }
 
 #menu li img{
@@ -65,12 +68,25 @@ body {
 }
 
 #menu li a{
+  box-sizing: border-box;
   color: black;
   font-weight: bold;
   text-decoration: none;
   font-size: 1em;
   height: 100%;
   width: 100%;
+  display: flex;
+  margin-left: 1%;
+  margin-left: -2px;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 25px solid black;
+}
+
+#menu li a p{
+  text-align: center;
+  margin: auto;
+  margin-top: -4px;
 }
 
 #menu li a:hover{
@@ -78,7 +94,7 @@ body {
 }
 
 #menu li:nth-child(1){
-  margin-left: 11.11%;
+  margin-left: 8%;
 }
 
 /***************/
