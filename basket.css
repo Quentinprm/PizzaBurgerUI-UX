@@ -1,7 +1,7 @@
 @-webkit-keyframes slideInRight {
   0% {
-    -webkit-transform: translate3d(+250px, 0, 0);
-            transform: translate3d(+250px, 0, 0);
+    -webkit-transform: translate3d(250px, 0, 0);
+            transform: translate3d(250px, 0, 0);
     visibility: visible;
   }
   100% {
@@ -178,26 +178,28 @@ body.open:after {
   color: white;
   font-family: Helvetica-Neue, Helvetica, Arial, sans-serif;
   font-size: 24px;
+  width:100%;
   font-weight: 300;
-  margin-right: 30px;
+  margin-left :40px;
   position: relative;
   text-decoration: none;
   top: -21.4285714286px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   z-index: 13;
+  left:10%;
 }
-
 .a-container {
   z-index: 14;
   height: 60px;
   right: 0;
   position: absolute;
-
 }
 .a-container.open{
   z-index:9999;
     width:33%;
+    border-left:1px solid grey;
+    border-bottom:1px solid grey;
   background-color: white;
 }
 .a-container:hover:not(.open) .bun-top,
