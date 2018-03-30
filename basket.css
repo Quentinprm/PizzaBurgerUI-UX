@@ -173,6 +173,7 @@ body.open:after {
 }
 
 .a-brand {
+  display: none;
   color: white;
   font-family: Helvetica-Neue, Helvetica, Arial, sans-serif;
   font-size: 24px;
@@ -216,5 +217,6 @@ body.open:after {
           transform: rotate(-45deg);
 }
 .a-container.open .a-brand {
+  display: inline;
   color: #444444;
 }
