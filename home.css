@@ -58,6 +58,7 @@ body {
   display: flex;
   height: 100%;
   background-color:dodgerblue;
+  border: 2px solid black;
 }
 
 #menu li img{
@@ -74,9 +75,6 @@ body {
   width: 100%;
   display: flex;
   margin-left: 1%;
-}
-
-#menu li:after{
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
   border-left: 20px solid black;
