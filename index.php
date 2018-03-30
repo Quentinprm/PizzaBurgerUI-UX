@@ -12,16 +12,83 @@
   <?php include("basket.html")?>
   <div id="app">
     <div id="centre">
-      <?php include("menu.html"); ?>
+      <div id="menu">
+        <?php
+          $ad=$_GET["ad"];
+          switch($ad){
+            case 'type.html':
+              $class1="class='gris'";
+              $suivant="pate.html";
+              break;
+            case 'pate.html':
+                $class1="class='gris'";
+                $class2="class='gris'";
+                $suivant="base.html";
+              break;
+            case 'base.html':
+              $class1="class='gris'";
+              $class2="class='gris'";
+              $class3="class='gris'";
+              $suivant="viande.html";
+              break;
+            case 'viande.html':
+              $class1="class='gris'";
+              $class2="class='gris'";
+              $class3="class='gris'";
+              $class4="class='gris'";
+              $suivant="legumes.html";
+              break;
+            case 'legumes.html':
+              $class1="class='gris'";
+              $class2="class='gris'";
+              $class3="class='gris'";
+              $class4="class='gris'";
+              $class5="class='gris'";
+              $suivant="fromage.html";
+              break;
+            case 'fromage.html':
+              $class1="class='gris'";
+              $class2="class='gris'";
+              $class3="class='gris'";
+              $class4="class='gris'";
+              $class5="class='gris'";
+              $class6="class='gris'";
+              $suivant="sauce.html";
+              break;
+            case 'sauce.html':
+              $class1="class='gris'";
+              $class2="class='gris'";
+              $class3="class='gris'";
+              $class4="class='gris'";
+              $class5="class='gris'";
+              $class6="class='gris'";
+              $class7="class='gris'";
+              $suivant="sauce.html";
+              break;
+          }
+        ?>
+        <ul class="menu_horizontal">
+          <li><a id="first" <?php echo $class1; ?> href="index.php?ad=type.html"><p>Type</p></a></li>
+          <li><a <?php echo $class2; ?> href="index.php?ad=pate.html"><p>Pâte</p></a></li>
+          <li><a <?php echo $class3; ?> href="index.php?ad=base.html"><p>Base</p></a></li>
+          <li><a <?php echo $class4; ?> href="index.php?ad=viande.html"><p>Viandes</p></a></li>
+          <li><a <?php echo $class5; ?> href="index.php?ad=legumes.html"><p>Légumes</p></a></li>
+          <li><a <?php echo $class6; ?> href="index.php?ad=fromage.html"><p>Fromage</p></a></li>
+          <li><a <?php echo $class7; ?> href="index.php?ad=sauce.html"><p>Sauce</p></a></li>
+        </ul>
+      </div>
       <?php
-        $ad=$_GET["ad"];
         include($ad);
       ?>
     </div>
   <?php include("profil.html"); ?>
   <?php include("panier.html"); ?>
-  <?php include("footer.php"); ?>
-
+  <div id="footer">
+    <ul>
+      <!-- <li id="retour"><a href="index.php?ad=type.html">Retour</a></li> -->
+      <li id="suivant"><a href="index.php?ad=<?php echo $suivant; ?>"><p>Suivant</p></a></li>
+    </ul>
+  </div>
 </div>
 </body>
 <script src="accountmenu.js"></script>

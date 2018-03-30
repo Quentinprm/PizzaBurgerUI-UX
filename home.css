@@ -76,17 +76,20 @@ body {
   height: 100%;
   width: 100%;
   display: flex;
-  margin-left: 1%;
-  margin-left: -2px;
   border-top: 25px solid transparent;
   border-bottom: 25px solid transparent;
   border-left: 25px solid black;
 }
 
+#menu .gris{
+  background-color: grey;
+  color: white;
+}
+
 #menu li a p{
   text-align: center;
   margin: auto;
-  margin-top: -4px;
+  margin-top: -5px;
 }
 
 #menu li a:hover{
