@@ -133,7 +133,7 @@ body.open:after {
   border-radius: 50%;
   cursor: pointer;
   display: inline-block;
-  height: 60px;
+  height: 55px;
   padding-left: 15.5px;
   padding-top: 17.5px;
   position: relative;
@@ -143,7 +143,7 @@ body.open:after {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  width: 60px;
+  width: 55px;
   z-index: 12;
 }
 .b-menu:hover {
