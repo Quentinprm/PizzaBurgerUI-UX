@@ -104,6 +104,7 @@ body.open:after {
 .a-nav.open {
   visibility: visible;
   z-index:998;
+  background-color:white;
 }
 .a-nav.open li {
   -webkit-animation-duration: 0.4s;
@@ -197,6 +198,7 @@ body.open:after {
 .a-container.open{
   z-index:9999;
     width:33%;
+  background-color: white;
 }
 .a-container:hover:not(.open) .bun-top,
 .a-container:hover:not(.open) .bun-mid,
