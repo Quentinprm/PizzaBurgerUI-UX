@@ -63,7 +63,7 @@
               $class5="class='gris'";
               $class6="class='gris'";
               $class7="class='gris'";
-              $suivant="sauce.html";
+              $suivant="recap.html";
               break;
           }
         ?>

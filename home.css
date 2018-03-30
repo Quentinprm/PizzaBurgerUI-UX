@@ -174,66 +174,21 @@ body {
   text-align: center;
 }
 
+/***************/
+/***************/
+/******Recap****/
+/***************/
+/***************/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.arrow_box:hover {
-  background-color:dodgerblue;
-}
-.arrow_box:hover:after{
-  background-color:none;
-  border-left-color: dodgerblue;
-}
-.arrow_box {
-  display:block;
-  float:left;
-  position: relative;
-  width: 100px;
-  color:black;
-  text-decoration:none;
-  text-align:center;
-  background-color:deepskyblue;
-  padding:10px;
-  margin-left: 16px;
-  border: 4px solid black;
+#recap{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.arrow_box:after, .arrow_box:before {
-  left: 100%;
-  top: 50%;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
+.item{
+  width: 80%;
+  margin: auto;
+  height: 75px;
+  background-color: lightgrey;
 }
-
-.arrow_box:after {
-  border-color: rgba(136, 183, 213, 0);
-  border-left-color: deepskyblue;
-  border-width: 17px;
-  margin-top: -17px;
-}
-.arrow_box:before {
-  border-color: rgba(194, 225, 245, 0);
-  border-left-color: black;
-  border-width: 22px;
-  margin-top: -22px;
-  margin-left:4px;
-}
-#first{
-  margin-left:0;
-}*/
