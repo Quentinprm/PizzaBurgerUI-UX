@@ -311,3 +311,14 @@ body {
 #popup a p{
   margin: auto;
 }
+
+.resto div{
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.resto div p{
+  width: 100%;
+  margin: auto;
+}
