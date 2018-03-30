@@ -189,10 +189,10 @@ body.open:after {
 }
 
 .a-container {
+  z-index: 14;
   height: 60px;
   right: 0;
   position: absolute;
-  top: 30px;
 }
 .a-container:hover:not(.open) .bun-top,
 .a-container:hover:not(.open) .bun-mid,

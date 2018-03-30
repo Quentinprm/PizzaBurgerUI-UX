@@ -34,12 +34,13 @@ body {
 /***************/
 /***************/
 #menu{
-  width:100%;
+  z-index: 13;
+  width: 100%;
   height: 15vh;
   display: flex;
   flex-wrap: wrap;
-  background-color: blue;
   padding: 0;
+  background-color: dodgerblue;
 }
 #menu ul {
   width: 100%;
@@ -51,7 +52,7 @@ body {
   list-style-type:none;
 }
 #menu li {
-  width: 12.5%;
+  width: 11.11%;
   padding: 0;
   text-align: center;
   display: flex;
@@ -72,17 +73,12 @@ body {
   width: 100%;
 }
 
-/***************/
-/***************/
-/******Panier***/
-/***************/
-/***************/
+#menu li a:hover{
+  color: white;
+}
 
-#panier{
-  display: none;
-  width: 33%;
-  height: 100vh;
-  background-color: red;
+#menu li:nth-child(1){
+  margin-left: 11.11%;
 }
 
 /***************/
@@ -157,21 +153,6 @@ body {
   margin: auto;
   background-color: dodgerblue;
   text-align: center;
-}
-
-/***************/
-/***************/
-/******Profil***/
-/***************/
-/***************/
-
-#profil{
-  display: none;
-  width: 33%;
-  z-index: 2;
-  position: absolute;
-  height: 100vh;
-  background-color: red;
 }
 
 

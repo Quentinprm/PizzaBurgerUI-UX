@@ -191,7 +191,8 @@ body.open:after {
   height: 60px;
   left: 0;
   position: absolute;
-  top: 30px;
+  width: 60px;
+  z-index: 14;
 }
 .b-container:hover:not(.open) .bun-top,
 .b-container:hover:not(.open) .bun-mid,
