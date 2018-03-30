@@ -129,7 +129,7 @@ body.open:after {
 
 .b-menu {
   background: transparent;
-  border: white solid 2px;
+  border: transparent solid 2px;
   border-radius: 50%;
   cursor: pointer;
   display: inline-block;
