@@ -192,3 +192,8 @@ body {
   height: 75px;
   background-color: lightgrey;
 }
+
+.item img{
+  width: 10px;
+  height: 10px;
+}
