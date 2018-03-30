@@ -117,7 +117,7 @@ body.open:after {
   border-left: rgba(68, 68, 68, 0) solid 2px;
   color: #444444;
   font-family: Helvetica-Neue, Helvetica, Arial, sans-serif;
-  font-size: 24px;
+  font-size: 17px;
   font-weight: 300;
   margin-left: 30px;
   text-decoration: none;
@@ -154,7 +154,7 @@ body.open:after {
 }
 
 .b-bun {
-  background: #444444;
+  background: white;
   position: relative;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
