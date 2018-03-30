@@ -322,3 +322,42 @@ body {
   width: 100%;
   margin: auto;
 }
+
+.itemCommande{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  height: auto;
+  font-weight: bold;
+}
+
+.itemCommande .titre, .itemCommande .imageCommande{
+  width: 100%;
+}
+
+.itemCommande .item1, .itemCommande .item2{
+  width: 50%;
+}
+
+.itemCommande .total{
+  width: 100%;
+}
+
+form{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 3px 3px 0 0;
+  background-color: ghostwhite;
+  opacity: 0.9;
+  padding: 1em;
+}
+
+label, input{
+  width: 100%;
+  margin: auto;
+}
