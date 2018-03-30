@@ -11,7 +11,6 @@
   <?php include("accountmenu.html");?>
   <?php include("basket.html")?>
   <div id="app">
-
     <div id="centre">
       <?php include("menu.html"); ?>
       <?php
