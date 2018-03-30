@@ -52,7 +52,7 @@ body {
   list-style-type:none;
 }
 #menu li {
-  width: 11.11%;
+  width: 12%;
   padding: 0;
   text-align: center;
   display: flex;
@@ -77,14 +77,16 @@ body {
   width: 100%;
   display: flex;
   margin-left: 1%;
+  margin-left: -2px;
   border-top: 25px solid transparent;
   border-bottom: 25px solid transparent;
-  border-left: 30px solid black;
+  border-left: 25px solid black;
 }
 
 #menu li a p{
   text-align: center;
   margin: auto;
+  margin-top: -4px;
 }
 
 #menu li a:hover{
@@ -92,7 +94,7 @@ body {
 }
 
 #menu li:nth-child(1){
-  margin-left: 11.11%;
+  margin-left: 8%;
 }
 
 /***************/
