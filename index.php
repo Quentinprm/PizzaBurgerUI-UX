@@ -65,6 +65,34 @@
               $class7="class='gris'";
               $suivant="recap.html";
               break;
+            case 'recap.html':
+              $class1="class='gris'";
+              $class2="class='gris'";
+              $class3="class='gris'";
+              $class4="class='gris'";
+              $class5="class='gris'";
+              $class6="class='gris'";
+              $class7="class='gris'";
+              $suivant="popup.html";
+              break;
+            case 'popup.html':
+                $class1="class='gris'";
+                $class2="class='gris'";
+                $class3="class='gris'";
+                $class4="class='gris'";
+                $class5="class='gris'";
+                $class6="class='gris'";
+                $class7="class='gris'";
+                break;
+            case 'popupvalider.html':
+                $class1="class='gris'";
+                $class2="class='gris'";
+                $class3="class='gris'";
+                $class4="class='gris'";
+                $class5="class='gris'";
+                $class6="class='gris'";
+                $class7="class='gris'";
+                break;
           }
         ?>
         <ul class="menu_horizontal">
@@ -85,8 +113,14 @@
   <?php include("panier.html"); ?>
   <div id="footer">
     <ul>
-      <!-- <li id="retour"><a href="index.php?ad=type.html">Retour</a></li> -->
-      <li id="suivant"><a href="index.php?ad=<?php echo $suivant; ?>"><p>Suivant</p></a></li>
+      <?php if($ad=="recap.html" OR $ad=="popup.html" OR $ad=="popupvalider.html"){
+        $nomLien="Valider commande";
+        echo "<li id='retour'><a href='index.php?ad=type.html'>Retour</a></li>";
+      }else{
+        $nomLien="Suivant";
+      }
+      ?>
+      <li id="suivant"><a href="index.php?ad=<?php echo $suivant; ?>"><p><?php echo $nomLien; ?></p></a></li>
     </ul>
   </div>
 </div>

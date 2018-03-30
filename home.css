@@ -186,14 +186,92 @@ body {
   flex-wrap: wrap;
 }
 
-.item{
+.items{
   width: 80%;
   margin: auto;
+  margin-top: 1em;
+  display: flex;
   height: 75px;
   background-color: lightgrey;
 }
 
-.item img{
-  width: 10px;
-  height: 10px;
+.items .item{
+  width: 66%;
+}
+
+.items .item p{
+  font-weight: bold;
+  margin-left: 10%;
+}
+
+.items ul li{
+  display: inline;
+}
+
+.items img{
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.items .prix{
+  width: 17%;
+  height: 100%;
+  display: flex;
+}
+
+.items .prix p{
+  margin: auto;
+}
+
+.items .croix{
+  width: 16%;
+  height: 100%;
+  display: flex;
+}
+
+.items .croix a{
+  margin: auto;
+}
+
+#popup{
+  z-index: 1000;
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 0 0 black;
+  background-color: #333333;
+  opacity: 0.9;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: 30%;
+  margin-top: 7%;
+}
+
+#popup p{
+  margin: auto;
+  width: 100%;
+}
+
+#popup a{
+  width: 33%;
+  height: 50px;
+  background-color: dodgerblue;
+  border-radius: 5px;
+  display: flex;
+  margin-left: 33%;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid black;
+  box-shadow: 2px 2px 0 0;
+}
+
+#popup a p{
+  margin: auto;
 }
